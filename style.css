@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001e4d;
+
+}
+.app
+{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius:10px ;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #06090e;
+    padding-bottom: 30px;
+    border-bottom:2px solid #333;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.app{
+box-shadow:0 15px 30px rgb(235 230 230 / 17%);
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size:18px ;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background: #8b8484;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align:left;
+    border-radius:4px ;
+    cursor: pointer;
+    box-shadow:0 15px 20px rgba(252, 254, 254, 0.58);
+    transition: all .3s;
+}
+
+
+.btn:hover.btn:hover:not([disabled]){
+    background: #d6cfcf;
+    color: #151313;
+    font-weight: bold;
+}
+.btn:disabled{
+     cursor: no-drop;/*kise button per click na kar saken */
+}
+#next-btn{
+    background:#001e4d ;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;/* next button ko hoizontally center me karne ke liye display :block */
+}
+#next-btn:hover{
+    background:#1e70f3 ;
+   
+}
+.correct{
+    background:#9aeabc ;
+}
+.incorrect{
+background: #ff9393;
+}
